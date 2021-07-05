@@ -1,5 +1,8 @@
 # AI Experiments
 
+## [GAN](GAN.ipynb)
+A full GAN example (training on COlab, inference on web).
+
 ## [Fake ResNet](fake_ResNet.ipynb)
 A ResNet inspired naive architecture for tabular data.
 
