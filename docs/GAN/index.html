@@ -48,17 +48,32 @@
             </div>
         </div>
         
-        <div class="row justify-content-center">
+        <div class="row justify-content-center mb-5">
             <div class="col-4 mt-3">
                 <button id="generate" type="button" class="btn btn-primary p-3 w-100" disabled=""></button>
             </div>
         </div>
-            
+
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <p>He montado una arquitectura GAN para generar imágenes (como las de la derecha)
+                    a base de cuadrados y círculos de colores. Un 
+                    <a href="https://github.com/juanalonso/AIExperiments/blob/main/GAN.ipynb" target="blank">notebook</a>
+                    genera las imágenes, entrena el modelo y lo exporta para que se pueda usar en el 
+                    navegador. Esta página muestra los resultados, ejecutando todo en local con 
+                    <a href="https://www.tensorflow.org/js" target="blank">TensorFlow.js</a>. No hace falta tener GPU ni
+                    para entrenar la red ni para obtener las nuevas imágenes. El código completo, incluyendo la parte del entrenamiento, está disponible en 
+                    <a href="https://github.com/juanalonso/neologismos" target="blank">GitHub</a></p>
+            </div>
+            <div class="col-md-4">
+                <img src="img/logo.png" class="w-100">
+            </div>
+
+        </div>
+
+
         <p id="footer" class="mt-5">
-            <small>Hecho por <a href="https://twitter.com/kokuma" target="blank">@kokuma</a> usando 
-                <a href="https://www.tensorflow.org/js" target="blank">TensorFlow.js</a>. 
-                El código completo, incluyendo la parte del entrenamiento, está disponible en 
-                <a href="https://github.com/juanalonso/neologismos" target="blank">GitHub</a>.</small>
+            <small>Hecho por <a href="https://twitter.com/kokuma" target="blank">@kokuma</a>.</small>
         </p>
 
     </div>
